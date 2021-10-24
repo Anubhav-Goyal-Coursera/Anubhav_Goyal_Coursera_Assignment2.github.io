@@ -19,7 +19,7 @@
                 <ul class="items-list">
                     <li ng-repeat="item in toBuy.items">
                         <div>Buy {{item.quantity}} {{item.name}}</div>
-                        <button class="button" ng-click="toBuy.moveItem($index)">Bought</button>
+                        <button class="button" ng-click="toBuy.moveItem($index)">Buy</button>
                     </li>
                 </ul>
                 <div class="message" ng-if="!toBuy.items.length">
